@@ -8,10 +8,10 @@ import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 
 // Import Routes all
-import { authProtectedRoutes, publicRoutes } from "./routes/index";
+import { authProtectedRoutes, publicRoutes } from "./config/routes/index";
 
 // Import all middleware
-import Authmiddleware from "./routes/route";
+import Authmiddleware from "./config/routes/route";
 
 // layouts Format
 import VerticalLayout from "./components/VerticalLayout/";
