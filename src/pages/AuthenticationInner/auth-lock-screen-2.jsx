@@ -9,9 +9,9 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 
 // import images
-import logoDark from "../../assets/images/logo-dark.png";
-import logoLight from "../../assets/images/logo-light.png";
-import user from "../../assets/images/users/avatar-1.jpg";
+import logoDark from "../../public/assets/images/logo-dark.png";
+import logoLight from "../../public/assets/images/logo-light.png";
+import user from "../../public/assets/images/users/avatar-1.jpg";
 import CarouselPage from "./CarouselPage";
 
 const LockScreen2 = (props) => {

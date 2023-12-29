@@ -13,7 +13,7 @@ import Breadcrumbs from "/src/components/Common/Breadcrumb";
 
 //Import Card invoice
 import CardInvoice from "./card-invoice";
-import { getInvoices as onGetInvoices } from "/src/store/actions";
+import { getInvoices as onGetInvoices } from "/src/interfaces/ui/redux/store/actions";
 
 import Spinners from "../../components/Common/Spinner";
 

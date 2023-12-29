@@ -6,7 +6,7 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 
 // action
-import { registerUser, apiError } from "../../store/actions";
+import { registerUser, apiError } from "../../interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";
@@ -15,9 +15,9 @@ import { createSelector } from "reselect";
 import { Link } from "react-router-dom";
 
 // import images
-import profileImg from "../../assets/images/profile-img.png";
-import logo from "../../assets/images/logo.svg";
-import lightlogo from "../../assets/images/logo-light.svg";
+import profileImg from "../../public/assets/images/profile-img.png";
+import logo from "../../public/assets/images/logo.svg";
+import lightlogo from "../../public/assets/images/logo-light.svg";
 
 const Register = () => {
   document.title = "Register | Skote - Vite React Admin & Dashboard Template";

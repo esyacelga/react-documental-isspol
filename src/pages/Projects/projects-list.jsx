@@ -27,7 +27,7 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 
 //Import Images
-import companies01 from "../../assets/images/companies/img-1.png";
+import companies01 from "../../public/assets/images/companies/img-1.png";
 
 import Flatpickr from 'react-flatpickr';
 import "flatpickr/dist/themes/material_blue.css";
@@ -40,7 +40,7 @@ import {
   getProjects as onGetProjects,
   updateProject as onUpdateProject,
   deleteProject as onDeleteProject,
-} from "../../store/actions";
+} from "../../interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

@@ -16,7 +16,7 @@ import {
   addNewUser as onAddNewUser,
   updateUser as onUpdateUser,
   deleteUser as onDeleteUser,
-} from "/src/store/contacts/actions";
+} from "/src/interfaces/ui/redux/store/contacts/actions";
 import { isEmpty } from "lodash";
 
 //redux

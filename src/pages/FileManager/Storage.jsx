@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Card, CardBody } from "reactstrap";
 import ReactApexChart from "react-apexcharts";
 import getChartColorsArray from "../../components/Common/ChartsDynamicColor";
-import { storageData } from "../../common/data";
+import { storageData } from "../../public/assets/data";
 
 const Storage = ({ dataColors }) => {
   const apexfileManagerChartColors = getChartColorsArray(dataColors);

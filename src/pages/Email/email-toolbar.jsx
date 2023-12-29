@@ -19,7 +19,7 @@ import {
   getSelectedMails as onGetSelectedMails,
   deleteMail as onDeleteMail,
   trashMail as onTrashMail,
-} from "/src/store/mails/actions";
+} from "/src/interfaces/ui/redux/store/mails/actions";
 import DeleteModal from "../../components/Common/DeleteModal";
 
 const EmailToolbar = (props) => {

@@ -12,18 +12,18 @@ import { Dropdown, DropdownToggle, DropdownMenu } from "reactstrap";
 import LanguageDropdown from "../CommonForBoth/TopbarDropdown/LanguageDropdown";
 import NotificationDropdown from "../CommonForBoth/TopbarDropdown/NotificationDropdown";
 import ProfileMenu from "../CommonForBoth/TopbarDropdown/ProfileMenu";
-import megamenuImg from "../../assets/images/megamenu-img.png";
+import megamenuImg from "../../public/assets/images/megamenu-img.png";
 
 // import images
-import github from "../../assets/images/brands/github.png";
-import bitbucket from "../../assets/images/brands/bitbucket.png";
-import dribbble from "../../assets/images/brands/dribbble.png";
-import dropbox from "../../assets/images/brands/dropbox.png";
-import mail_chimp from "../../assets/images/brands/mail_chimp.png";
-import slack from "../../assets/images/brands/slack.png";
+import github from "../../public/assets/images/brands/github.png";
+import bitbucket from "../../public/assets/images/brands/bitbucket.png";
+import dribbble from "../../public/assets/images/brands/dribbble.png";
+import dropbox from "../../public/assets/images/brands/dropbox.png";
+import mail_chimp from "../../public/assets/images/brands/mail_chimp.png";
+import slack from "../../public/assets/images/brands/slack.png";
 
-import logo from "../../assets/images/logo.svg";
-import logoLightSvg from "../../assets/images/logo-light.svg";
+import logo from "../../public/assets/images/logo.svg";
+import logoLightSvg from "../../public/assets/images/logo-light.svg";
 
 //i18n
 import { withTranslation } from "react-i18next";
@@ -33,7 +33,7 @@ import {
   showRightSidebarAction,
   toggleLeftmenu,
   changeSidebarType,
-} from "../../store/actions";
+} from "../../interfaces/ui/redux/store/actions";
 
 const Header = props => {
   const [search, setsearch] = useState(false);

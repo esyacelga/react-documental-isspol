@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'reactstrap';
-import { jobsGridData } from '../../../common/data';
+import { jobsGridData } from '../../../public/assets/data';
 
 //Import Breadcrumb
 import Breadcrumbs from "../../../components/Common/Breadcrumb";

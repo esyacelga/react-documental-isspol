@@ -9,8 +9,8 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
-import images from "/src/assets/images";
-import companies from "/src/assets/images/companies";
+import images from "/src/public/assets/images";
+import companies from "/src/public/assets/images/companies";
 
 const CardProject = ({ projects }) => {
   return (

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 
 //Import Image
-import avatar2 from "../../assets/images/users/avatar-2.jpg";
+import avatar2 from "../../public/assets/images/users/avatar-2.jpg";
 
 //Import Breadcrumb
 import Breadcrumbs from "../../components/Common/Breadcrumb";
@@ -11,7 +11,7 @@ import Breadcrumbs from "../../components/Common/Breadcrumb";
 import EmailSideBar from "./email-sidebar";
 import withRouter from "../../components/Common/withRouter";
 import { useDispatch, useSelector } from "react-redux";
-import { getMailsListsId as onGetMailsListsId } from "/src/store/mails/actions";
+import { getMailsListsId as onGetMailsListsId } from "/src/interfaces/ui/redux/store/mails/actions";
 import { createSelector } from "reselect";
 
 const EmailRead = (props) => {

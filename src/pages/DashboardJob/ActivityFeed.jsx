@@ -5,7 +5,7 @@ import { Card, CardBody, Col } from 'reactstrap';
 // //Import Scrollbar
 import SimpleBar from "simplebar-react";
 
-import { activityFeedData } from '../../common/data';
+import { activityFeedData } from '../../public/assets/data';
 
 const ActivityFeed = () => {
     return (

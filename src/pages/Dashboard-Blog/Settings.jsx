@@ -10,7 +10,7 @@ import {
   Row,
 } from "reactstrap"
 
-import avatar from "../../assets/images/users/avatar-1.jpg"
+import avatar from "../../public/assets/images/users/avatar-1.jpg"
 
 const Settings = () => {
   return (

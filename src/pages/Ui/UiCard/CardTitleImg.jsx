@@ -2,8 +2,8 @@ import React from "react";
 import { CardBody, CardText, CardTitle, Card, Col, Row } from "reactstrap";
 
 // img
-import img2 from "../../../assets/images/small/img-2.jpg";
-import img3 from "../../../assets/images/small/img-3.jpg";
+import img2 from "../../../public/assets/images/small/img-2.jpg";
+import img3 from "../../../public/assets/images/small/img-3.jpg";
 
 const CardTitleImg = () => {
     return (

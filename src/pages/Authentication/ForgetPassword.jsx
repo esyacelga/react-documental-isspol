@@ -24,12 +24,12 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 
 // action
-import { userForgetPassword } from "../../store/actions";
+import { userForgetPassword } from "../../interfaces/ui/redux/store/actions";
 
 // import images
-import profile from "../../assets/images/profile-img.png";
-import logo from "../../assets/images/logo.svg";
-import lightlogo from "../../assets/images/logo-light.svg";
+import profile from "../../public/assets/images/profile-img.png";
+import logo from "../../public/assets/images/logo.svg";
+import lightlogo from "../../public/assets/images/logo-light.svg";
 
 const ForgetPasswordPage = (props) => {
   //meta title

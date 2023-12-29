@@ -27,8 +27,8 @@ import classnames from "classnames"
 import Breadcrumbs from "../../components/Common/Breadcrumb"
 
 //Import Images
-import img1 from "../../assets/images/product/img-1.png"
-import img7 from "../../assets/images/product/img-7.png"
+import img1 from "../../public/assets/images/product/img-1.png"
+import img7 from "../../public/assets/images/product/img-7.png"
 
 // PatternFormat
 import { PatternFormat } from "react-number-format";

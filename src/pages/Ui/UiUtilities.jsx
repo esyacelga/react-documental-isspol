@@ -11,18 +11,18 @@ import {
 //Import Breadcrumb
 import Breadcrumbs from "../../components/Common/Breadcrumb";
 
-import avtar2 from "../../assets/images/users/avatar-2.jpg";
-import avtar5 from "../../assets/images/users/avatar-5.jpg";
+import avtar2 from "../../public/assets/images/users/avatar-2.jpg";
+import avtar5 from "../../public/assets/images/users/avatar-5.jpg";
 
 
 //import Images
-import avatar1 from "../../assets/images/users/avatar-1.jpg";
-import avatar2 from "../../assets/images/users/avatar-2.jpg";
-import avatar3 from "../../assets/images/users/avatar-3.jpg";
-import avatar4 from "../../assets/images/users/avatar-4.jpg";
-import avatar5 from "../../assets/images/users/avatar-5.jpg";
-import img3 from "../../assets/images/small/img-3.jpg";
-import image1 from "../../assets/images/small/img-1.jpg";
+import avatar1 from "../../public/assets/images/users/avatar-1.jpg";
+import avatar2 from "../../public/assets/images/users/avatar-2.jpg";
+import avatar3 from "../../public/assets/images/users/avatar-3.jpg";
+import avatar4 from "../../public/assets/images/users/avatar-4.jpg";
+import avatar5 from "../../public/assets/images/users/avatar-5.jpg";
+import img3 from "../../public/assets/images/small/img-3.jpg";
+import image1 from "../../public/assets/images/small/img-1.jpg";
 
 const UiUtilites = () => {
   document.title = "Utilities | Skote - Vite React Admin & Dashboard Template";

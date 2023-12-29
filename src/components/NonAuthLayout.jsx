@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import withRouter from "./Common/withRouter";
 import { useDispatch, useSelector } from "react-redux";
 import { createSelector } from "reselect";
-import { changeLayoutMode } from "../store/actions";
+import { changeLayoutMode } from "../interfaces/ui/redux/store/actions";
 
 const NonAuthLayout = (props) => {
 

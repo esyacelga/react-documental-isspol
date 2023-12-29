@@ -29,12 +29,12 @@ import {
   getCategories as onGetCategories,
   getEvents as onGetEvents,
   updateEvent as onUpdateEvent,
-} from "../../store/actions";
+} from "../../interfaces/ui/redux/store/actions";
 
 import DeleteModal from "./DeleteModal";
 
 //import Images
-import verification from "../../assets/images/verification-img.png";
+import verification from "../../public/assets/images/verification-img.png";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

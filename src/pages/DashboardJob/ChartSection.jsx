@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Row } from 'reactstrap';
 
 //import components
 import { JobWidgetCharts } from './JobCharts';
-import { chartsData } from '../../common/data';
+import { chartsData } from '../../public/assets/data';
 
 const ChartSection = () => {
 

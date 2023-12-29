@@ -4,7 +4,7 @@ import { Card, CardBody, Col, Collapse, Row, Form, Label, Input } from 'reactstr
 import "flatpickr/dist/themes/material_blue.css";
 import FlatPickr from "react-flatpickr";
 
-import { experienceData, jobType } from '../../../common/data';
+import { experienceData, jobType } from '../../../public/assets/data';
 
 const JobFilter = ({ jobData, setJobGrid }) => {
     const [selectDate, setSelectDate] = useState();

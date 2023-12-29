@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import {
   getApplyJob as OnGetApplyJob,
   deleteApplyJob as OnDeleteApplyJob,
-} from "/src/store/actions";
+} from "/src/interfaces/ui/redux/store/actions";
 
 import Spinners from "../../../components/Common/Spinner"
 

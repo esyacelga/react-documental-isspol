@@ -9,7 +9,7 @@ import {
   changeLayoutWidth,
   showRightSidebarAction,
   changeLayoutMode,
-} from "../../store/actions";
+} from "../../interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

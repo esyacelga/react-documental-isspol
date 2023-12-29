@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Col } from "reactstrap";
 
 // img 
-import authOverlay from "../../assets/images/bg-auth-overlay.png"
+import authOverlay from "../../public/assets/images/bg-auth-overlay.png"
 
 const CarouselPage = () => {
   return (

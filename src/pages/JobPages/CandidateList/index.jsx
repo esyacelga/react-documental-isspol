@@ -9,7 +9,7 @@ import Spinners from '../../../components/Common/Spinner';
 import { handleSearchData } from '../../../components/Common/searchFile';
 import "flatpickr/dist/themes/material_blue.css";
 import FlatPickr from "react-flatpickr";
-import { experienceData, jobListCandidate, jobType } from '../../../common/data';
+import { experienceData, jobListCandidate, jobType } from '../../../public/assets/data';
 
 const CandidateList = () => {
     document.title = "Candidate List | Skote - Vite React Admin & Dashboard Template";

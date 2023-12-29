@@ -17,10 +17,10 @@ import "nouislider/distribute/nouislider.css";
 import Breadcrumbs from "/src/components/Common/Breadcrumb";
 
 //Import data
-import { discountData } from "/src/common/data";
+import { discountData } from "/src/public/assets/data";
 
 //Import actions
-import { getProducts as onGetProducts } from "/src/store/e-commerce/actions";
+import { getProducts as onGetProducts } from "/src/interfaces/ui/redux/store/e-commerce/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

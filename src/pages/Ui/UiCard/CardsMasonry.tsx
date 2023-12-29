@@ -3,9 +3,9 @@ import { Card, CardBody, Col, Row } from "reactstrap";
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 // img
-import img3 from "../../../assets/images/small/img-3.jpg";
-import img5 from "../../../assets/images/small/img-5.jpg";
-import img7 from "../../../assets/images/small/img-7.jpg";
+import img3 from "../../../public/assets/images/small/img-3.jpg";
+import img5 from "../../../public/assets/images/small/img-5.jpg";
+import img7 from "../../../public/assets/images/small/img-7.jpg";
 
 const CardsMasonry = () => {
     return (

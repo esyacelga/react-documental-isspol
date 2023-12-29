@@ -9,9 +9,9 @@ import { isEmpty, map } from "lodash";
 import Breadcrumbs from "../../components/Common/Breadcrumb";
 
 //Import Image
-import logoDark from "../../assets/images/logo-dark.png";
-import logoLight from "../../assets/images/logo-light.png";
-import { getInvoiceDetail as onGetInvoiceDetail } from "../../store/invoices/actions";
+import logoDark from "../../public/assets/images/logo-dark.png";
+import logoLight from "../../public/assets/images/logo-light.png";
+import { getInvoiceDetail as onGetInvoiceDetail } from "../../interfaces/ui/redux/store/invoices/actions";
 //redux
 import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";

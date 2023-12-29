@@ -14,7 +14,7 @@ import {
   addNewJobList as onAddNewJobList,
   updateJobList as onUpdateJobList,
   deleteJobList as onDeleteJobList,
-} from "/src/store/actions";
+} from "/src/interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

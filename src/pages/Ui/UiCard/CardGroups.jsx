@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, CardBody, CardText, CardTitle, Col, Row } from "reactstrap";
 // img
-import img4 from "../../../assets/images/small/img-4.jpg";
-import img5 from "../../../assets/images/small/img-5.jpg";
-import img6 from "../../../assets/images/small/img-6.jpg";
+import img4 from "../../../public/assets/images/small/img-4.jpg";
+import img5 from "../../../public/assets/images/small/img-5.jpg";
+import img6 from "../../../public/assets/images/small/img-6.jpg";
 
 const CardGroups = () => {
     return (

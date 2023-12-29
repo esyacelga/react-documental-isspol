@@ -5,8 +5,8 @@ import ReactApexChart from "react-apexcharts";
 import getChartColorsArray from "../../components/Common/ChartsDynamicColor";
 import { useSelector, useDispatch } from 'react-redux';
 import { createSelector } from "reselect";
-import { dashboardBlogVisitorData } from '../../store/actions';
-import { blogStatsData } from "../../common/data";
+import { dashboardBlogVisitorData } from '../../interfaces/ui/redux/store/actions';
+import { blogStatsData } from "../../public/assets/data";
 
 const CardUser = ({ dataColors }) => {
 

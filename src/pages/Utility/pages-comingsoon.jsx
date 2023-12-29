@@ -6,9 +6,9 @@ import { Container, Row, Col } from "reactstrap"
 import Countdown from "react-countdown"
 
 //Import Images
-import logodark from "../../assets/images/logo-dark.png";
-import logolight from "../../assets/images/logo-light.png";
-import maintanence from "../../assets/images/coming-soon.svg"
+import logodark from "../../public/assets/images/logo-dark.png";
+import logolight from "../../public/assets/images/logo-light.png";
+import maintanence from "../../public/assets/images/coming-soon.svg"
 
 const PagesComingsoon = () => {
   const renderer = ({ days, hours, minutes, seconds, completed }) => {

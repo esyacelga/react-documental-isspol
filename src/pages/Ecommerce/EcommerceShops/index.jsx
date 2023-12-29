@@ -9,7 +9,7 @@ import Breadcrumbs from "/src/components/Common/Breadcrumb"
 
 //Import Card
 import CardShop from "./CardShop"
-import { getShops as onGetShops } from "/src/store/e-commerce/actions"
+import { getShops as onGetShops } from "/src/interfaces/ui/redux/store/e-commerce/actions"
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

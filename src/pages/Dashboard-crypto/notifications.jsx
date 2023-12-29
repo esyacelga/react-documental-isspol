@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Card, CardBody } from "reactstrap";
-import { notificationsData } from "../../common/data";
+import { notificationsData } from "../../public/assets/data";
 //Simple bar
 import SimpleBar from "simplebar-react";
 

@@ -28,7 +28,7 @@ import Dropzone from "react-dropzone";
 import Breadcrumbs from "../../components/Common/Breadcrumb";
 
 //Import images
-import verificationImg from "../../assets/images/verification-img.png";
+import verificationImg from "../../public/assets/images/verification-img.png";
 
 const CryptoKYCApplication = props => {
 

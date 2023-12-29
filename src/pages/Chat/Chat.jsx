@@ -10,7 +10,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";
 import {
   getMessages as onGetMessages,
-} from "/src/store/actions";
+} from "/src/interfaces/ui/redux/store/actions";
 
 import ChatList from "./ChatList";
 import UserChat from "./UserChat";

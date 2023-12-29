@@ -11,11 +11,11 @@ import TableContainer from "../../components/Common/TableContainer";
 import "flatpickr/dist/themes/material_blue.css";
 import FlatPickr from "react-flatpickr";
 
-import "/src/assets/scss/datatables.scss";
+import "/src/public/assets/scss/datatables.scss";
 
 //Import Breadcrumb
 import Breadcrumbs from "/src/components/Common/Breadcrumb";
-import { getCryptoOrders } from "/src/store/crypto/actions";
+import { getCryptoOrders } from "/src/interfaces/ui/redux/store/crypto/actions";
 import { handleSearchData } from "../../components/Common/searchFile";
 import Spinners from "../../components/Common/Spinner";
 

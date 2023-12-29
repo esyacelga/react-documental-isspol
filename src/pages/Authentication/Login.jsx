@@ -25,12 +25,12 @@ import {
 } from "reactstrap";
 
 // actions
-import { loginUser, socialLogin } from "../../store/actions";
+import { loginUser, socialLogin } from "../../interfaces/ui/redux/store/actions";
 
 // import images
-import profile from "../../assets/images/profile-img.png";
-import logo from "../../assets/images/logo.svg";
-import lightlogo from "../../assets/images/logo-light.svg";
+import profile from "../../public/assets/images/profile-img.png";
+import logo from "../../public/assets/images/logo.svg";
+import lightlogo from "../../public/assets/images/logo-light.svg";
 
 const Login = (props) => {
   //meta title

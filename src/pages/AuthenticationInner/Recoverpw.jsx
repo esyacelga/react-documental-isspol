@@ -16,9 +16,9 @@ import {
 } from "reactstrap";
 
 // import images
-import profile from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
-import lightlogo from "../../assets/images/logo-light.svg";
+import profile from "../../public/assets/images/profile-img.png";
+import logoImg from "../../public/assets/images/logo.svg";
+import lightlogo from "../../public/assets/images/logo-light.svg";
 
 const Recoverpw = () => {
 

@@ -8,7 +8,7 @@ import { useDispatch } from "react-redux";
 import {
     addMessage as onAddMessage,
     deleteMessage as onDeleteMessage
-} from "/src/store/actions"
+} from "/src/interfaces/ui/redux/store/actions"
 import Spinners from "../../components/Common/Spinner";
 
 

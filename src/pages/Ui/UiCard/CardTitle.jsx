@@ -1,8 +1,8 @@
 import React from "react";
 import { CardBody, CardText, CardTitle, Card, Col, Row } from "reactstrap";
-import img5 from "../../../assets/images/small/img-5.jpg";
-import img6 from "../../../assets/images/small/img-6.jpg";
-import img7 from "../../../assets/images/small/img-7.jpg";
+import img5 from "../../../public/assets/images/small/img-5.jpg";
+import img6 from "../../../public/assets/images/small/img-6.jpg";
+import img7 from "../../../public/assets/images/small/img-7.jpg";
 
 const CardTitles = () => {
     return (

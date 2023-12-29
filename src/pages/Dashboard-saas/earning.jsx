@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ReactApexChart from "react-apexcharts";
 
 //actions
-import { getEarningChartsData } from "../../store/actions";
+import { getEarningChartsData } from "../../interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

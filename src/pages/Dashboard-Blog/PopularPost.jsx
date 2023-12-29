@@ -9,7 +9,7 @@ import {
   Table,
   UncontrolledDropdown,
 } from "reactstrap"
-import { blogPost } from "../../common/data"
+import { blogPost } from "../../public/assets/data"
 
 const PopularPost = () => {
 

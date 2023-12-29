@@ -17,7 +17,7 @@ import {
   getProductDetail as onGetProductDetail,
   getProductComments as onGetProductComments,
   onAddReply as onAddReplyAction
-} from "/src/store/actions"
+} from "/src/interfaces/ui/redux/store/actions"
 import RecentProducts from "./RecentProducts"
 import Reviews from "./Reviews"
 

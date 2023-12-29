@@ -6,7 +6,7 @@ import { Badge, Button, Card, CardBody } from "reactstrap";
 import EcommerceOrdersModal from "../Ecommerce/EcommerceOrders/EcommerceOrdersModal";
 
 import TableContainer from "../../components/Common/TableContainer";
-import { latestTransaction } from "../../common/data";
+import { latestTransaction } from "../../public/assets/data";
 import { Link } from "react-router-dom";
 
 const LatestTransaction = () => {

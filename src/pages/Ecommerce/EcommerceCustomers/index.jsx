@@ -13,7 +13,7 @@ import {
   addNewCustomer as onAddNewCustomer,
   updateCustomer as onUpdateCustomer,
   deleteCustomer as onDeleteCustomer,
-} from "/src/store/e-commerce/actions";
+} from "/src/interfaces/ui/redux/store/e-commerce/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

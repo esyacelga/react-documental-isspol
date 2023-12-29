@@ -9,7 +9,7 @@ import {
   addCardData as onAddCardData,
   updateCardData as onUpdateCardData,
   deleteKanban as OnDeleteKanban,
-} from "../../store/tasks/actions"
+} from "../../interfaces/ui/redux/store/tasks/actions"
 
 //redux
 import { useSelector, useDispatch } from "react-redux"
@@ -17,7 +17,7 @@ import { createSelector } from "reselect"
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd"
 import { Link } from "react-router-dom"
 import Breadcrumbs from "../../components/Common/Breadcrumb"
-import { AddTeamMember } from "../../common/data"
+import { AddTeamMember } from "../../public/assets/data"
 import SimpleBar from "simplebar-react"
 import moment from "moment"
 import { ToastContainer } from "react-toastify"

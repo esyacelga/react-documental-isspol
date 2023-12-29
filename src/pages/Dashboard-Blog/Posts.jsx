@@ -17,7 +17,7 @@ import classnames from "classnames"
 
 //SimpleBar
 import SimpleBar from "simplebar-react"
-import { postPopularData, postRecentData } from "../../common/data"
+import { postPopularData, postRecentData } from "../../public/assets/data"
 
 const Posts = () => {
   const [activeTab, setActiveTab] = useState("1")

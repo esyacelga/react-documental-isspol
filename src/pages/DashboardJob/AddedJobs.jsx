@@ -4,7 +4,7 @@ import React from 'react';
 import SimpleBar from "simplebar-react";
 import { Card, CardBody, Col, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { recentAddedJobsData } from '../../common/data';
+import { recentAddedJobsData } from '../../public/assets/data';
 
 const AddedJobs = () => {
   return (

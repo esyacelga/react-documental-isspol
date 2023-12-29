@@ -14,7 +14,7 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 import moment from "moment";
 import SimpleBar from "simplebar-react";
-import { projectAssignedTo } from "../../common/data";
+import { projectAssignedTo } from "../../public/assets/data";
 
 const ProjectsCreate = () => {
 

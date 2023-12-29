@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import { isEmpty } from "lodash";
 import { Card, CardBody, Col, Container, Row } from "reactstrap";
 import withRouter from "../../../components/Common/withRouter";
-import "/src/assets/scss/datatables.scss";
+import "/src/public/assets/scss/datatables.scss";
 
 //Import Breadcrumb
 import Breadcrumbs from "/src/components/Common/Breadcrumb";
-import { getWallet as onGetWallet } from "/src/store/actions";
+import { getWallet as onGetWallet } from "/src/interfaces/ui/redux/store/actions";
 import WalletActivities from "./walletActivities";
 import WalletStats from "./walletStats";
 import WalletOverView from "./walletOverView";

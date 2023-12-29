@@ -6,9 +6,9 @@ import { Container, Row, Col } from "reactstrap"
 import CardMaintenance from "./card-maintenance"
 
 //Import Images
-import maintenance from "../../assets/images/maintenance.svg"
-import logodark from "../../assets/images/logo-dark.png";
-import logolight from "../../assets/images/logo-light.png";
+import maintenance from "../../public/assets/images/maintenance.svg"
+import logodark from "../../public/assets/images/logo-dark.png";
+import logolight from "../../public/assets/images/logo-light.png";
 
 const PagesMaintenance = () => {
 

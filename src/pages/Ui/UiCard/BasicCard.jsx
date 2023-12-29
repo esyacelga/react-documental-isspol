@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } from "reactstrap";
 
 // IMage
-import img1 from "../../../assets/images/small/img-1.jpg";
-import img2 from "../../../assets/images/small/img-2.jpg";
-import img3 from "../../../assets/images/small/img-3.jpg";
-import img4 from "../../../assets/images/small/img-4.jpg";
+import img1 from "../../../public/assets/images/small/img-1.jpg";
+import img2 from "../../../public/assets/images/small/img-2.jpg";
+import img3 from "../../../public/assets/images/small/img-3.jpg";
+import img4 from "../../../public/assets/images/small/img-4.jpg";
 
 const BasicCard = () => {
     return (

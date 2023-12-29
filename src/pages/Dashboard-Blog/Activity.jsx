@@ -12,7 +12,7 @@ import {
 
 //SimpleBar
 import SimpleBar from "simplebar-react"
-import { activityBlogData } from "../../common/data"
+import { activityBlogData } from "../../public/assets/data"
 
 const Activity = () => {
   return (

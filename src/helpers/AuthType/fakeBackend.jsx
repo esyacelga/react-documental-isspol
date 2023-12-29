@@ -34,7 +34,7 @@ import {
   productData,
   cryptoOrderData,
   mailDB
-} from "../../common/data";
+} from "../../public/assets/data";
 
 let users = [
   {

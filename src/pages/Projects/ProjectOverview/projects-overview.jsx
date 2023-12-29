@@ -7,7 +7,7 @@ import { Col, Container, Row } from "reactstrap";
 //Import Breadcrumb
 import Breadcrumbs from "/src/components/Common/Breadcrumb";
 
-import { getProjectDetail as onGetProjectDetail } from "/src/store/projects/actions";
+import { getProjectDetail as onGetProjectDetail } from "/src/interfaces/ui/redux/store/projects/actions";
 import ProjectDetail from "./projectDetail";
 import TeamMembers from "./teamMembers";
 import OverviewChart from "./overviewChart";

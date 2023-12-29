@@ -14,7 +14,7 @@ import classnames from "classnames"
 
 //Simple bar
 import SimpleBar from "simplebar-react"
-import { transactionsDataALL, transactionsDataBuy, transactionsDataSell } from "../../common/data"
+import { transactionsDataALL, transactionsDataBuy, transactionsDataSell } from "../../public/assets/data"
 
 const Transactions = () => {
   const [activeTab, setActiveTab] = useState("1")

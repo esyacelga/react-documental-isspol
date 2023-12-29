@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import { archiveData, categoriesData, popularPosts, tagsData } from "../../../common/data";
+import { archiveData, categoriesData, popularPosts, tagsData } from "../../../public/assets/data";
 
 
 const RightBar = () => {

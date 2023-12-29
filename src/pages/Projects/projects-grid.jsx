@@ -10,7 +10,7 @@ import CardProject from "./card-project";
 import Spinners from "../../components/Common/Spinner";
 import Paginations from "../../components/Common/Pagination";
 
-import { getProjects as onGetProjects } from "/src/store/actions";
+import { getProjects as onGetProjects } from "/src/interfaces/ui/redux/store/actions";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

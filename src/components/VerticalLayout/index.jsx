@@ -10,7 +10,7 @@ import {
   changeTopbarTheme,
   changeLayoutWidth,
   showRightSidebarAction,
-} from "../../store/actions";
+} from "../../interfaces/ui/redux/store/actions";
 
 // Layout Related Components
 import Header from "./Header";

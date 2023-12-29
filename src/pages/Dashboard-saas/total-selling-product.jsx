@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";
 
 //actions
-import { getTopSellingProduct } from "../../store/actions";
+import { getTopSellingProduct } from "../../interfaces/ui/redux/store/actions";
 
 const getChartOptions = index => {
   var options = {

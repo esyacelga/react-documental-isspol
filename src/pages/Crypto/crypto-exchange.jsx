@@ -29,8 +29,8 @@ import SimpleBar from "simplebar-react"
 import Breadcrumbs from "../../components/Common/Breadcrumb"
 
 //Import Images
-import avatar from "../../assets/images/users/avatar-1.jpg"
-import { orderbookData } from "../../common/data"
+import avatar from "../../public/assets/images/users/avatar-1.jpg"
+import { orderbookData } from "../../public/assets/data"
 
 const CryptoExchange = props => {
 

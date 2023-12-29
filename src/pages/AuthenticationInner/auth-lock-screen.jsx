@@ -7,9 +7,9 @@ import { useFormik } from "formik";
 import { Container, Row, Col, CardBody, Card, Button, Form, Label, Input, FormFeedback } from "reactstrap";
 
 // import images
-import profileImg from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
-import avatar from "../../assets/images/users/avatar-1.jpg";
+import profileImg from "../../public/assets/images/profile-img.png";
+import logoImg from "../../public/assets/images/logo.svg";
+import avatar from "../../public/assets/images/users/avatar-1.jpg";
 import { Link } from "react-router-dom";
 
 const LockScreen = () => {

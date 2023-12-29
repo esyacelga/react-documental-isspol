@@ -30,7 +30,7 @@ import {
   getMailsLists as onGetMailsLists,
   getSelectedMails as onGetSelectedMails,
   staredMail as onStaredMail
-} from "/src/store/mails/actions";
+} from "/src/interfaces/ui/redux/store/mails/actions";
 
 //Import Email Topbar
 import EmailToolbar from "./email-toolbar";
@@ -38,7 +38,7 @@ import EmailToolbar from "./email-toolbar";
 //redux
 import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";
-import { labelsData, mailChatData } from "../../common/data";
+import { labelsData, mailChatData } from "../../public/assets/data";
 import Spinners from "../../components/Common/Spinner";
 
 const EmailInbox = () => {

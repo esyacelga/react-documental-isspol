@@ -11,7 +11,7 @@ import {
   Row,
   Progress,
 } from "reactstrap"
-import { progressData } from '../../common/data';
+import { progressData } from '../../public/assets/data';
 
 const TapVisitors = () => {
   return (

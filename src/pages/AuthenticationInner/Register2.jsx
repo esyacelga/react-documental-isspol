@@ -8,8 +8,8 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 
 // import images
-import logoDark from "../../assets/images/logo-dark.png";
-import logoLight from "../../assets/images/logo-light.png";
+import logoDark from "../../public/assets/images/logo-dark.png";
+import logoLight from "../../public/assets/images/logo-light.png";
 
 const Register2 = () => {
 

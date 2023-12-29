@@ -6,8 +6,8 @@ import { Card, CardBody, CardTitle, Col, Container, Row } from "reactstrap";
 import Breadcrumbs from "/src/components/Common/Breadcrumb";
 import ReactApexChart from "react-apexcharts";
 
-import { getTasks as onGetTasks } from "/src/store/tasks/actions";
-import { options, series, recentTasksData } from "/src/common/data/tasks";
+import { getTasks as onGetTasks } from "/src/interfaces/ui/redux/store/tasks/actions";
+import { options, series, recentTasksData } from "/src/public/assets/data/tasks";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";

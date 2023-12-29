@@ -15,11 +15,11 @@ import Breadcrumbs from "/src/components/Common/Breadcrumb";
 import MiniCards from "./mini-card";
 
 //Import Images
-import profile1 from "/src/assets/images/profile-img.png";
+import profile1 from "/src/public/assets/images/profile-img.png";
 
 // import charts
 import ApexRevenue from "../ApexRevenue";
-import { getUserProfile } from "/src/store/actions";
+import { getUserProfile } from "/src/interfaces/ui/redux/store/actions";
 
 const ContactsProfile = (props) => {
 

@@ -9,7 +9,7 @@ import TableContainer from "../../../components/Common/TableContainer";
 import Spinners from "../../../components/Common/Spinner";
 import { createSelector } from "@reduxjs/toolkit";
 import { useDispatch, useSelector } from "react-redux";
-import { getCryptoProducts as onGetCryptoProducts } from "../../../store/actions";
+import { getCryptoProducts as onGetCryptoProducts } from "../../../interfaces/ui/redux/store/actions";
 import { Link } from "react-router-dom";
 
 const WalletActivities = ({ isLoading, setLoading }) => {
