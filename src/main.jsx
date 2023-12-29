@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import App from "./App"
+import App from "./public/App"
 import * as serviceWorker from "./serviceWorker"
 import { BrowserRouter } from "react-router-dom"
 import "./config/i18n/i18n"

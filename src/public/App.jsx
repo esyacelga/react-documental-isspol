@@ -8,18 +8,18 @@ import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 
 // Import Routes all
-import { authProtectedRoutes, publicRoutes } from "./config/routes/index";
+import { authProtectedRoutes, publicRoutes } from "../config/routes";
 
 // Import all middleware
-import Authmiddleware from "./config/routes/route";
+import Authmiddleware from "../config/routes/route";
 
 // layouts Format
-import VerticalLayout from "./components/VerticalLayout/";
-import HorizontalLayout from "./components/HorizontalLayout/";
-import NonAuthLayout from "./components/NonAuthLayout";
+import VerticalLayout from "../components/VerticalLayout";
+import HorizontalLayout from "../components/HorizontalLayout";
+import NonAuthLayout from "../components/NonAuthLayout";
 
 // Import scss
-import "./public/assets/scss/theme.scss";
+import "./assets/scss/theme.scss";
 
 // Import Firebase Configuration file
 // import { initFirebaseBackend } from "./helpers/firebase_helper"
