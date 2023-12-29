@@ -9,7 +9,7 @@ import { get, map } from "lodash";
 import { withTranslation } from "react-i18next";
 
 //i18n
-import i18n from "../../../i18n";
+import i18n from "../../../config/i18n/i18n";
 import languages from "../../../config/common/languages";
 
 const LanguageDropdown = () => {
